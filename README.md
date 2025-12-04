@@ -188,7 +188,6 @@ if st.button("🔍 Get Answer"):
 |-----------|----------|--------|
 | Large contracts | Efficient retrieval (top-3 only) | ~3 sec response |
 | Context boundaries | 50-char overlap | No split terms |
-| API compatibility | New OpenAI client format | Works with v1.0+ |
 
 ---
 
@@ -319,7 +318,6 @@ Protections:
 **3. Accessibility & Equity**
 
 Current limitations:
-- English only
 - Requires internet for API
 - Minimal API cost (~$0.01/10 questions)
 
