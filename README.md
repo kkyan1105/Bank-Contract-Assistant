@@ -94,6 +94,15 @@ Chunk Size: 500 characters
 Overlap: 50 characters
 Rationale: Balance context preservation and retrieval granularity
 ```
+**Optimization Process:**
+
+Through experimentation, I tested multiple chunk sizes:
+
+| Chunk Size | Result | Issue |
+|------------|--------|-------|
+| 200 chars | ❌ Failed | Split clauses mid-sentence, lost context |
+| 1000 chars | ❌ Failed | Too much irrelevant info, noisy retrieval |
+| 500 chars + 50 overlap | ✅ Optimal | Balanced context preservation and precision |
 
 **Why overlap?** Prevents splitting key terms across boundaries.
 
