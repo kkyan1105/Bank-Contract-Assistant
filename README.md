@@ -1,4 +1,4 @@
-# 💳 Bank Contract QA Assistant
+# 💳 ContractRAG: Financial Document Analysis Assistant
 
 **A RAG-Based System for Analyzing Bank Agreements**
 
