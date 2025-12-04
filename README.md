@@ -71,7 +71,7 @@ A **Retrieval-Augmented Generation (RAG)** system that:
 | **Web Framework** | Streamlit v1.28.0 | User interface |
 
 ### RAG Pipeline
-<p align="center"> <img src="figs/architecture.png" width="40%"> </p>
+<p align="center"> <img src="figs/architecture.png" width="100%"> </p>
 
 ---
 
