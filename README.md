@@ -191,12 +191,6 @@ if st.button("🔍 Get Answer"):
         st.code(result['retrieved_chunks'])
 ```
 
-### Key Implementation Challenges
-
-| Challenge | Solution | Result |
-|-----------|----------|--------|
-| Large contracts | Efficient retrieval (top-3 only) | ~3 sec response |
-| Context boundaries | 50-char overlap | No split terms |
 
 ---
 
