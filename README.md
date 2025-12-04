@@ -414,35 +414,6 @@ Query: "What happens if I'm late paying?"
 
 ---
 
-### Next Steps
-
-**Short-term (1-2 weeks)**
-
-1. **Hybrid Search** - Combine keyword + semantic
-2. **Query Expansion** - Generate related queries
-3. **Confidence Scores** - Display answer confidence
-
-**Medium-term (1-2 months)**
-
-1. **Multi-Document Comparison** - Compare Chase vs BofA
-2. **Fine-tuned Embeddings** - Train on financial contracts
-3. **Compliance Checking** - Auto-flag concerning clauses
-
-**Long-term (3-6 months)**
-
-1. **Multi-Modal Analysis** - Process charts/tables
-2. **Conversational Memory** - Multi-turn conversations
-3. **Proactive Insights** - Automatic analysis
-4. **Regulatory Monitoring** - Track contract changes
-
-**Research Questions**
-
-1. How does RAG scale with contract complexity?
-2. Can we auto-identify unfair clauses?
-3. What's optimal retrieval for legal documents?
-4. How to quantify explanation quality?
-
----
 
 ## 🚀 Setup & Usage
 
@@ -515,20 +486,4 @@ Opens at http://localhost:8501
 
 ---
 
-## 📝 License
 
-MIT License - see [LICENSE](LICENSE)
-
-
----
-
-## 🙏 Acknowledgments
-
-- Course instructor and TAs
-- OpenAI for API access
-- CFPB for public data
-- Open-source community
-
----
-
-⭐ **Star this repo if helpful!**
